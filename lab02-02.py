@@ -1,0 +1,7 @@
+print("## 택배를 보내기 위한 정보를 입력하세요. ##")
+personname=input("받는 사람:")
+personaddr=input("주소:")
+weight=int(input("무게(g):"))
+print("** 받는 사람==>",personname)
+print("** 주소==>",personaddr)
+print("** 배송비==>",weight*5)
